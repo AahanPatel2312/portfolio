@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+  scroll-snap-type: y mandatory;
+}
+
+.name {
+    font-size: 30px;
+
+    font-family: "Tiny5 Duo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "BLED" 0,
+        "JITT" 0,
+        "ROND" 0;
+}
+
+.intro {
+    background-color: beige;
+    height: 90vh;
+    width: 100%;
+}
+
+.ul {
+    font-size: 20px;
+    color: #501e00;
+    text-decoration: none;
+    font-family: "Tiny5 Duo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "BLED" 0,
+        "JITT" 0,
+        "ROND" 0;
+    padding: 0;
+    margin: 10;
+    list-style: none;
+    gap: 30px;
+    display: flex;
+}
+
+nav {
+    padding: 20px;
+    background-color: #dfac65;
+}
+
+.name1 {
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 160px;
+    margin-bottom: 50px;
+
+    font-family: "Tiny5 Duo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "BLED" 0,
+        "JITT" 0,
+        "ROND" 0;
+}
+.name2 {
+    font-size: 40px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 20px;
+
+    font-family: "Tiny5 Duo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "BLED" 0,
+        "JITT" 0,
+        "ROND" 0;
+}
+
+
+#element {
+    font-size: 30px;
+    color: #501e00;
+    text-decoration: none;
+    font-family: "Tiny5 Duo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "BLED" 0,
+        "JITT" 0,
+        "ROND" 0;
+}
+
+#element2 {
+    font-size: 30px;
+    color: #260f01;
+    text-decoration: none;
+    font-family: "Tiny5 Duo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "BLED" 0,
+        "JITT" 0,
+        "ROND" 0;
+}
+
+.about {
+    background-color: bisque;
+}
+
+.mainall {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    scroll-snap-align: start;
+}
+.about-text {
+    font-size: 20px;
+    color: #501e00;
+    text-decoration: none;
+    font-family: "Tiny5 Duo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "BLED" 0,
+        "JITT" 0,
+        "ROND" 0;
+}
+.boss {
+    display: flex;
+}
+.com {
+    border: 2px solid black;
+    height: 350px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    font-family: "Tiny5 Duo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "BLED" 0,
+        "JITT" 0,
+        "ROND" 0;
+}
+.com:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+#projects {
+    background-color: #edd488;
+}
+.one {
+    background-color: rgb(244, 139, 244);
+}
+.two {
+    background-color: rgb(139, 244, 244);
+}
+.three {
+    background-color: rgb(244, 244, 139);
+}
+.project-title {
+    font-size: 30px;
+    color: #271910;
+    text-decoration: none;
+    font-family: "Tiny5 Duo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "BLED" 0,
+        "JITT" 0,
+        "ROND" 0;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 130px;
+    padding-bottom: 20px;
+}
+.about-project {
+    
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.demo {
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #501e00;
+}
